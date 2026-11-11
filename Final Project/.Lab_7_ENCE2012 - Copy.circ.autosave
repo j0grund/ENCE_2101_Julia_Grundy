@@ -110,6 +110,9 @@
       <a name="facing" val="east"/>
       <a name="label" val="en"/>
     </comp>
+    <comp lib="0" loc="(1040,550)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
     <comp lib="0" loc="(1040,860)" name="Clock">
       <a name="appearance" val="classic"/>
       <a name="label" val="clk"/>
@@ -120,6 +123,9 @@
     </comp>
     <comp lib="0" loc="(1060,860)" name="Tunnel">
       <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1140,790)" name="Pin">
+      <a name="appearance" val="NewPins"/>
     </comp>
     <comp lib="0" loc="(1210,810)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -220,6 +226,9 @@
     <comp lib="0" loc="(760,240)" name="Tunnel">
       <a name="label" val="en"/>
     </comp>
+    <comp lib="0" loc="(940,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
     <comp lib="0" loc="(950,690)" name="Splitter">
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
@@ -288,7 +297,7 @@
     <comp lib="6" loc="(1810,330)" name="RGBLED">
       <a name="labelcolor" val="#ff0000"/>
     </comp>
-    <comp lib="9" loc="(1552,191)" name="Text">
+    <comp lib="9" loc="(1550,190)" name="Text">
       <a name="font" val="SansSerif bold 22"/>
       <a name="text" val="Traffic Light A"/>
     </comp>
@@ -296,7 +305,7 @@
       <a name="font" val="SansSerif bold 22"/>
       <a name="text" val="Counter Display"/>
     </comp>
-    <comp lib="9" loc="(1802,191)" name="Text">
+    <comp lib="9" loc="(1800,190)" name="Text">
       <a name="font" val="SansSerif bold 22"/>
       <a name="text" val="Traffic Light B"/>
     </comp>
@@ -342,7 +351,6 @@
     <wire from="(1100,360)" to="(1120,360)"/>
     <wire from="(1100,380)" to="(1120,380)"/>
     <wire from="(1120,930)" to="(1140,930)"/>
-    <wire from="(1140,790)" to="(1140,930)"/>
     <wire from="(1140,790)" to="(1230,790)"/>
     <wire from="(1210,810)" to="(1230,810)"/>
     <wire from="(1230,860)" to="(1230,890)"/>
@@ -473,8 +481,6 @@
     <wire from="(900,450)" to="(980,450)"/>
     <wire from="(900,750)" to="(950,750)"/>
     <wire from="(940,380)" to="(1060,380)"/>
-    <wire from="(940,380)" to="(940,550)"/>
-    <wire from="(940,550)" to="(1040,550)"/>
     <wire from="(950,690)" to="(950,750)"/>
     <wire from="(950,750)" to="(1480,750)"/>
     <wire from="(970,650)" to="(990,650)"/>
