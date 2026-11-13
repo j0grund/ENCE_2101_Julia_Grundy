@@ -1450,7 +1450,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main3"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="8.0"/>
+    <a name="simulationFrequency" val="4.0"/>
     <comp lib="0" loc="(1000,560)" name="Tunnel">
       <a name="label" val="YA"/>
     </comp>
